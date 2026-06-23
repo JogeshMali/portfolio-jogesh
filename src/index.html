@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogeshkumar Mali | Software Engineer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CSS Animated Background -->
+    <div class="starfield">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="ambient-orb orb-cyan"></div>
+        <div class="ambient-orb orb-pink"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Jogesh<span>_</span></a>
+            <ul class="nav-links">
+                <li><a href="#skills">~// Skills</a></li>
+                <li><a href="#experience">~// Experience</a></li>
+                <li><a href="#projects">~// Projects</a></li>
+                <li><a href="#education">~// Education</a></li>
+                <li><a href="#contact">~// Contact</a></li>
+                <li>
+                    <!-- Theme Toggle Button -->
+                    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION WITH SVG CHARACTER -->
+        <section class="hero-section container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="terminal-box">
+                        <div class="term-header">
+                            <div class="term-btn tb-red"></div><div class="term-btn tb-yel"></div><div class="term-btn tb-grn"></div>
+                        </div>
+                        <div class="typewriter">
+                            <span style="color: #FF007A;">></span> System.out.println("Hello, World!");
+                        </div>
+                    </div>
+                    
+                    <h1>Hi, I'm <span class="gradient-text">Jogeshkumar Mali</span></h1>
+                    
+                    <!-- Attractive Tag Type Role -->
+                    <div class="role-tag">
+                        <i class="fa-solid fa-code"></i> Full Stack & Mobile Developer
+                    </div>
+                    
+                    <p style="color: var(--text-muted); font-size: 1.15rem; margin-bottom: 40px; max-width: 500px;">
+                        I’m a detail-oriented Computer Engineering Student passionate about building scalable mobile and desktop applications and solving real-world problems through clean, efficient code.
+                    </p>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                        <!-- Download Resume Button -->
+                        <a href="/public/resume.pdf" download class="btn btn-outline"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+                        <a href="https://github.com/JogeshMali" target="_blank" class="btn btn-pink"><i class="devicon-github-original"></i> GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- CUSTOM FLOATING SVG BOT CHARACTER -->
+                <div class="character-container">
+                    <svg viewBox="0 0 400 400" class="svg-bot" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="200" cy="300" rx="120" ry="20" fill="none" stroke="var(--cyan)" stroke-width="4" stroke-dasharray="10 5" opacity="0.4"/>
+                        <ellipse cx="200" cy="310" rx="90" ry="15" fill="none" stroke="var(--pink)" stroke-width="2" opacity="0.4"/>
+                        
+                        <path d="M 140 250 L 260 250 L 230 300 L 170 300 Z" fill="var(--bg-deep)" stroke="var(--cyan)" stroke-width="3"/>
+                        <circle cx="200" cy="270" r="15" fill="var(--pink)" class="bot-core"/>
+                        
+                        <rect x="110" y="100" width="180" height="130" rx="20" fill="var(--bg-deep)" stroke="var(--pink)" stroke-width="4"/>
+                        <rect x="125" y="115" width="150" height="100" rx="10" fill="rgba(0,0,0,0.5)" stroke="var(--cyan)" stroke-width="2"/>
+                        
+                        <path d="M 145 150 Q 160 140 175 150 Q 160 160 145 150" fill="var(--cyan)" class="bot-eye"/>
+                        <path d="M 225 150 Q 240 140 255 150 Q 240 160 225 150" fill="var(--cyan)" class="bot-eye"/>
+                        
+                        <line x1="140" y1="180" x2="160" y2="180" stroke="var(--pink)" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="140" y1="195" x2="200" y2="195" stroke="var(--cyan)" stroke-width="3" stroke-linecap="round"/>
+                        
+                        <line x1="200" y1="100" x2="200" y2="50" stroke="var(--cyan)" stroke-width="4"/>
+                        <circle cx="200" cy="50" r="8" fill="var(--pink)">
+                            <animate attributeName="r" values="8;12;8" dur="1s" repeatCount="indefinite" />
+                        </circle>
+                        
+                        <rect x="50" y="150" width="30" height="30" rx="5" fill="none" stroke="var(--cyan)" stroke-width="2" transform="rotate(45 65 165)">
+                            <animate attributeName="y" values="150;130;150" dur="4s" repeatCount="indefinite"/>
+                        </rect>
+                        <rect x="320" y="200" width="20" height="20" rx="4" fill="none" stroke="var(--pink)" stroke-width="2" transform="rotate(20 330 210)">
+                            <animate attributeName="y" values="200;220;200" dur="5s" repeatCount="indefinite"/>
+                        </rect>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAPABILITIES / SKILLS -->
+        <section id="capabilities" class="section-padding container">
+            <h2 class="section-title"><span>Skills</span> </h2>
+            <div class="skills-grid">
+                <!-- Original Skills -->
+                <div class="skill-badge glass-panel"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-c-plain colored"></i><span>C</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-csharp-plain colored"></i><span>C# .NET</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-spring-original colored"></i><span>Spring Boot</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-flutter-plain colored"></i><span>Flutter</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-react-original colored"></i><span>React Native</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-android-plain colored"></i><span>Android App</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-mysql-plain colored"></i><span>MySQL / SQLite</span></div>
+                
+                <!-- New Added Skills -->
+                <div class="skill-badge glass-panel"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                <div class="skill-badge glass-panel"><i class="devicon-kotlin-plain colored"></i><span>Kotlin</span></div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section-padding container">
+            <h2 class="section-title"><span>Professional</span> Experience</h2>
+            <div class="timeline-grid">
+                <div class="timeline-card glass-panel">
+                    <i class="fa-solid fa-code-commit"></i>
+                    <div>
+                        <h3>Web & App Developer Intern</h3>
+                        <h4>SonyTech Plus Institute</h4>
+                        <span class="timeline-date">> Jan 2025 - May 2025</span>
+                        <ul style="margin-bottom: 20px;">
+                            <li>Engineered internal/external websites focusing on high-performance modern web technologies and UX design.</li>
+                            <li>Executed R&D for a GenAI-based doubt-solving bot logic focusing on intelligent query resolution.</li>
+                            <li>Architected a structural Lead Management System to significantly improve client communication efficiency.</li>
+                        </ul>
+                        <!-- LOR & Certificate Buttons -->
+                        <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                            <a href="/public/lor .pdf" target="_blank" class="btn btn-pink" style="padding: 8px 15px; font-size: 0.85rem;"><i class="fa-solid fa-award"></i> View LOR</a>
+                            <a href="/public/intern cert.pdf" target="_blank" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.85rem;"><i class="fa-solid fa-certificate"></i> Experience Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section-padding container">
+            <h2 class="section-title"><span>Projects</span> </h2>
+            <div class="projects-grid">
+                
+                <div class="project-card glass-panel">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <h3>Classroom Clone App</h3>
+                    <p style="color: var(--text-muted);">A feature-rich digital classroom application featuring real-time concurrent chat, file uploads, quizzes, and dynamic attendance tracking metrics.</p>
+                    <div class="project-tech">
+                        <span>Java</span><span>Android Studio</span><span>Firebase</span>
+                    </div>
+                    <!-- GitHub Link -->
+                    <div style="margin-top: auto; padding-top: 15px;">
+                        <a href="https://github.com/JogeshMali/LearnHub" target="_blank" class="btn btn-neon" style="padding: 8px 15px; font-size: 0.85rem;"><i class="devicon-github-original"></i> Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <h3>Calling System CRM</h3>
+                    <p style="color: var(--text-muted);">A native Windows desktop CRM tool utilized by coaching institutes to automate student lead assignments and manage employee performance.</p>
+                    <div class="project-tech">
+                        <span>Flutter Desktop</span><span>Windows</span><span>Firebase</span>
+                    </div>
+                    <!-- GitHub Link -->
+                    <div style="margin-top: auto; padding-top: 15px;">
+                        <a href="https://github.com/JogeshMali/Calling-System" target="_blank" class="btn btn-neon" style="padding: 8px 15px; font-size: 0.85rem;"><i class="devicon-github-original"></i> Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <h3>Coaching App</h3>
+                    <p style="color: var(--text-muted);">A scalable e-learning platform,featuring structured course delivery, interactive learning experiences, learner engagement tools, and real-time progress tracking.</p>
+                    <div class="project-tech">
+                        <span>React Native</span><span>Firebase</span>
+                    </div>
+                    <!-- GitHub Link -->
+                    <div style="margin-top: auto; padding-top: 15px;">
+                        <a href="https://github.com/JogeshMali/coaching-App" target="_blank" class="btn btn-neon" style="padding: 8px 15px; font-size: 0.85rem;"><i class="devicon-github-original"></i> Source Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section-padding container">
+            <h2 class="section-title"><span>Academic</span> Education</h2>
+            <div class="timeline-grid">
+                
+                <div class="timeline-card glass-panel">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div>
+                        <h3>Bachelor of Engineering (B.E.) in Computer Engineering</h3>
+                        <h4>Thakur College of Engineering and Technology</h4>
+                        <span class="timeline-date">> Status: Pursuing</span>
+                        <ul>
+                            <li>Strengthening technical expertise through rigorous coursework, collaborative projects, and practical experience in software development and modern computing systems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-card glass-panel">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <div>
+                        <h3>Diploma in Information Technology</h3>
+                        <h4>Government Polytechnic Mumbai</h4>
+                        <span class="timeline-date">> 2022 - 2025</span>
+                        <ul>
+                            <li>Achieved a final score of 93%. Built strong foundational skills in programming languages and database logic.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-card glass-panel" style="border-left-color: var(--cyan);">
+                    <i class="fa-solid fa-school" style="color: var(--cyan);"></i>
+                    <div>
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <h4>AFAC English School</h4>
+                        <span class="timeline-date">> 2021 - 2022</span>
+                        <ul>
+                            <li>Graduated with distinction scoring 92.40%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section-padding container">
+            <h2 class="section-title"><span>Official</span> Certifications</h2>
+            <div class="timeline-grid">
+                <div class="cert-card glass-panel">
+                    <i class="fa-solid fa-certificate"></i>
+                    <div>
+                        <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Java Advanced Programming</h3>
+                        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+                            Issued by Scaler, Data Flair, Mind Luster, Udemy. Covered advanced architecture including Sockets, Servlets, JSP, and complex Multithreading.
+                        </p>
+                        <!-- External Course Links -->
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
+                            <a href="https://drive.google.com/drive/folders/1HJcjZPlu_7RLyuHb7CLcJfO-oWKQEufS" target="_blank" class="btn btn-outline" style="padding: 6px 12px; font-size: 0.8rem;"><i class="fa-solid fa-link"></i> View All Certificates</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section-padding container">
+            
+            <div class="section-header-centered">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-split-container">
+                
+                <div class="contact-card">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for any opportunities or collaborations.</p>
+                    
+                    <div class="contact-list">
+                        <div class="contact-list-item">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <a href="tel:+918591449721" class="contact-link">+91 85914 49721</a>
+                        </div>
+                        <div class="contact-list-item">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <a href="mailto:jogeshkumarmali9240@gmail.com" class="contact-link">jogeshkumarmali9240@gmail.com</a>
+                        </div>
+                        <div class="contact-list-item">
+                            <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+                            <a href="https://github.com/JogeshMali" target="_blank" class="contact-link">GitHub</a>
+                        </div>
+                        <div class="contact-list-item">
+                            <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <a href="https://linkedin.com/in/jogeshkumar-mali-015054265" target="_blank" class="contact-link">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <!-- Configured with FormSubmit to make it actually work -->
+                    <form action="https://formsubmit.co/jogeshkumarmali9240@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New message from your Portfolio!">
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                        <div class="form-group-modern">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group-modern">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group-modern">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit-modern">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        
+        <footer style="text-align: center; padding: 50px 20px; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 50px;">
+            <h2 style="font-family: var(--font-code); font-size: 1.5rem; margin-bottom: 20px; color: var(--text-main);">&lt;Jogeshkumar Mali /&gt;</h2>
+        </footer>
+
+    </main>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
